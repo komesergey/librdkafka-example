@@ -19,13 +19,15 @@ kafka-topics.sh --describe --zookeeper localhost:2181,localhost:2182,localhost:2
 5. Enjoy.
 
 ##### Zookeeper and Topic settings in KafkaConsumer.cpp
-```cmake
+
+```cpp
 std::string brokers = "localhost:9091,localhost:9092,localhost:9093";
 std::string topic = "telemetry-replicated";
 ```
 
 ##### Zookeeper and Topic settings in KafkaProducer.cpp
-```cmake
+
+```cpp
 std::string brokers = "127.0.0.1:9091, 127.0.0.1:9092, 127.0.0.1:9093";
 std::string topic_str = "telemetry-replicated";
 ```
