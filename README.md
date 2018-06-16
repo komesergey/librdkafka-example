@@ -1,2 +1,2 @@
-# librdkafka-example
+### Test project for librdkafka
 
